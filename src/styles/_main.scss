@@ -1,0 +1,48 @@
+#main {
+    margin-top: 54px;
+    display: flex;
+    min-height: 100vh;
+    border-top: 1px solid #000;
+    #aside {
+        width: 300px;
+        background-color: #000;
+        color: #fff;
+        border-right: 1px solid #393939;
+        padding: 20px;
+
+        button {
+            text-align: left;
+            width: 260px;
+            height: 40px;
+            margin-top: 20px;
+            font-size: 20px;
+            color: #d1d1d1;
+            border-radius: 40px;
+
+            span {
+                margin-left: 10px;
+            }
+            &:hover {
+                background-color: red;
+                color: #fff;
+            }
+        }
+
+    }
+
+    #contents {
+        width: calc(100% - 300px);
+        background-color: #000;
+        padding: 24px;
+        color: #fff;
+
+        .videoList {
+            >ul {
+                display: flex;
+                >li {
+                    width: 33%;
+                }
+            }
+        }
+    }
+}
