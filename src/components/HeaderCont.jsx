@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import { AiFillYoutube } from 'react-icons/ai';
+import SearchBar from './SearchBar';
 
 const HeaderCont = () => {
   return (
@@ -12,16 +13,7 @@ const HeaderCont = () => {
           Jins Youtube
         </Link>
       </h1>
-      <div className="search">
-        <label className="glass" htmlFor="searchInput"></label>
-        <input
-          type="text"
-          id="searchInput"
-          className="input__search"
-          placeholder="동영상을 검색하세요"
-          title="검색"
-        />
-      </div>
+      <SearchBar />
     </header>
   );
 };
