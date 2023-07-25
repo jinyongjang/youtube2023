@@ -7,7 +7,7 @@ const MainConts = () => {
 
   useEffect(() => {
     fetch(
-      `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=48&q=${selectCategory}&type=video&key=${process.env.REACT_APP_YOUTUBE_API_KEY}`,
+      `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=48&q=${selectCategory}&type=video&key=AIzaSyAi3oS-PQt8OVW6Njn4l4CEXeK8m8W-fMQ`,
     )
       .then(response => response.json())
       .then(result => {
