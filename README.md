@@ -7,7 +7,7 @@
 ##### react를 사용하여 만들었으며 react의 router기능을 사용하여 부가 페이지를 만들었습니다.
 
 ### 완성된 site 주소 : JinTube[jintubelink]
-[hoongtubelink]: https://jin-youtubesite.netlify.app/
+[jintubelink]: https://jin-youtubesite.netlify.app/
 
 ------------------------------
 ## 사용 스택
